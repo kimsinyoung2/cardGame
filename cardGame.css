@@ -1,0 +1,88 @@
+.container {
+    background-color: darkgreen;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    width: 1000px;
+    display: flex;
+    justify-content: center; 
+}
+
+.card{
+    background-color: red;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 3px;
+    font-size: 30px;
+    margin-right: 40px;
+}
+.card:last-child {
+    margin: 0;
+}
+.dragingCard {
+    border-color: red;
+}
+.overBox{
+    background-color: darkgreen;
+}
+
+.overCard{
+    background-color: purple;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: darkgreen;
+}
+.play{
+    background-color: red;
+    font-size: 16px;
+    padding: 13px 30px;
+    cursor: pointer;
+}
+.hiddens{
+    display: none;
+}
+.textmain{
+    text-align: center;
+    
+}
+.submit{
+    background-color: red;
+    font-size: 16px;
+    padding: 13px 30px;
+    cursor: pointer;
+ 
+}
+#loginBtn{
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+
+
+/* //////////////////////////////////////////////// */
+.wrap{ 
+    width: 1000px;
+    margin: 0 auto;
+}
+button {
+    margin-right: 50px;
+} 
+.submit{
+    margin: 0;
+}
+article {
+    text-align: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/* //////////////////////////////////////////////// */
