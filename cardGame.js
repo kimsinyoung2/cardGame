@@ -100,6 +100,9 @@ function 정답(){
         alert("정답입니다");
         location.reload();
     }
+    else{
+        alert("다시 배치해 주세요.");
+    }
 
     
 }
